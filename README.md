@@ -1,54 +1,99 @@
-**Overview**
+# Overview
 
-Macfiles are dotfiles made for my ```MacBook Air 6,2```
-You can however use them on other devices as well.
-I tried to make them as reproducabel as possible.
+Macfiles are dotfiles made for my `MacBook Air 6,2`.  
+You can however use them on other devices as well.  
+I tried to make them as reproducible as possible.
 
+# Installation
 
-**Instalation**
-
-I recoment instaling macfiles on a freshly installed NixOS.
-If you have your own configuration set up, I'd highly recomend carefully modifying
-your own configuration with parts of my own, loading my entide config at once may break things.
+I recommend installing macfiles on a freshly installed NixOS.  
+If you have your own configuration set up, I'd highly recommend carefully modifying your own configuration with parts of my own. Loading my entire config at once may break things.  
 This guide will assume you have a clean install.
 
-1. ```nix-shell -p git file home-manager``` 
+1. Install necessary tools:
 
-2. ```git clone https://github.com/Lovelines111/macfiles.git```
+    ```bash
+    nix-shell -p git file home-manager
+    ```
 
-3. ```cd macfiles```
+2. Clone the repository:
 
-4. ```cp /etc/nixos/hardware-configuration.nix .```
+    ```bash
+    git clone https://github.com/Lovelines111/macfiles.git
+    ```
 
-5. ```chmod +x replace-user.sh```
+3. Navigate to the cloned directory:
 
-Now we'll replace my username with your own. This is very important because if done incorrectly will prevent you from logging in.
-`
-6. ```./replace-user . nixoline "$(whoami)"
-It should say this:
-```Modifying: ./configuration.nix
-Modifying: ./.git/logs/refs/heads/main
-Modifying: ./.git/logs/refs/remotes/origin/HEAD
-Modifying: ./.git/logs/HEAD
-Modifying: ./install.sh
-Modifying: ./flake.nix
-Modifying: ./modules/v2rayA.nix
-Modifying: ./dconf/gnome-settings.dconf
-Modifying: ./dconf/openbar.conf
-Modifying: ./home.nix
-Replacement complete.
-```
+    ```bash
+    cd macfiles
+    ```
 
-if everything is in order, proceed to the system nstalation:
-```sudo nixos-rebuild switch --flake .#maxos```
+4. Copy the hardware configuration:
 
-Now Home manager
-```home-manager switch --flake .```
+    ```bash
+    cp /etc/nixos/hardware-configuration.nix .
+    ```
 
-And now apply gnome configuration:
-```cat dconf/gnome-settings.dconf | dconf load /```
+5. Make the script executable:
 
-Restart the computew to apply all kernel changes.
-```reboot```
+    ```bash
+    chmod +x replace-user.sh
+    ```
 
-/*Done!/*
+Now we'll replace my username with your own. This is very important because if done incorrectly, it will prevent you from logging in.
+
+6. Run the replacement script:
+
+    ```bash
+    ./replace-user . nixoline "$(whoami)"
+    ```
+
+It should output something like this:
+
+    ```
+    Modifying: ./configuration.nix
+    Modifying: ./.git/logs/refs/heads/main
+    Modifying: ./.git/logs/refs/remotes/origin/HEAD
+    Modifying: ./.git/logs/HEAD
+    Modifying: ./install.sh
+    Modifying: ./flake.nix
+    Modifying: ./modules/v2rayA.nix
+    Modifying: ./dconf/gnome-settings.dconf
+    Modifying: ./dconf/openbar.conf
+    Modifying: ./home.nix
+    Replacement complete.
+    ```
+
+If everything is in order, proceed to the system installation:
+
+7. Rebuild your system:
+
+    ```bash
+    sudo nixos-rebuild switch --flake .#maxos
+    ```
+
+8. Run Home Manager:
+
+    ```bash
+    home-manager switch --flake .
+    ```
+
+9. Apply the GNOME configuration:
+
+    ```bash
+    cat dconf/gnome-settings.dconf | dconf load /
+    ```
+
+10. Restart the computer to apply all kernel changes:
+
+    ```bash
+    reboot
+    ```
+
+---
+
+//*Done!*//
+
+---
+
+Now the commands are neatly formatted as code blocks. Let me know if you need anything else!
