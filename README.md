@@ -1,9 +1,12 @@
 **Overview**
+
 Macfiles are dotfiles made for my ```MacBook Air 6,2```
 You can however use them on other devices as well.
 I tried to make them as reproducabel as possible.
 
+
 **Instalation**
+
 I recoment instaling macfiles on a freshly installed NixOS.
 If you have your own configuration set up, I'd highly recomend carefully modifying
 your own configuration with parts of my own, loading my entide config at once may break things.
