@@ -9,13 +9,14 @@ in
 	GTK
   wezterm
   helix
+  git
   ];
 
 
   programs.home-manager.enable = true;
 
-  home.username = "nixoline";
-  home.homeDirectory = "/home/nixoline";
+  home.username = "maxoline";
+  home.homeDirectory = "/home/maxoline";
 
   home.packages = with pkgs; [
     blahaj

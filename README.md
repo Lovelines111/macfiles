@@ -4,9 +4,15 @@ Macfiles are dotfiles made for my `MacBook Air 6,2`.
 You can however use them on other devices as well.  
 I tried to make them as reproducible as possible.
 
+The theme here is all pastel pink.
+![image](https://github.com/user-attachments/assets/c8b081ac-628f-4ad4-8a82-01877f68a550)
+![image](https://github.com/user-attachments/assets/3eaa1d47-41e2-4055-a5e7-27a9d2595f18)
+
+There is a lot more to theme and declare so I might very muc hupdate this repo in the future.
+
 # Installation
 
-I recommend installing macfiles on a freshly installed NixOS.  
+I recommend installing macfiles on a freshly installed NixOS with Gnome.  
 If you have your own configuration set up, I'd highly recommend carefully modifying your own configuration with parts of my own. Loading my entire config at once may break things.  
 This guide will assume you have a clean install.
 
@@ -45,7 +51,7 @@ Now we'll replace my username with your own. This is very important because if d
 6. Run the replacement script:
 
     ```bash
-    ./replace-user . nixoline "$(whoami)"
+    ./replace-user.sh . nixoline "$(whoami)"
     ```
 
 It should output something like this:
@@ -89,11 +95,23 @@ If everything is in order, proceed to the system installation:
     ```bash
     reboot
     ```
-
 ---
+Now for the part I couldn't configure decleratively.
+For telegram I use this theme:
 
-//*Done!*//
 
----
+![image](https://github.com/user-attachments/assets/3933fcb0-3741-412c-82fc-8bf140b78f76)
 
-Now the commands are neatly formatted as code blocks. Let me know if you need anything else!
+
+
+For Vesktop I use this plugin:
+
+
+![image](https://github.com/user-attachments/assets/53164307-29ad-47bc-b4fb-65a69d323197)
+
+With this color:**#7c2a43**
+
+For Librewolf I use this one:
+https://addons.mozilla.org/en-US/firefox/addon/classicpink/
+
+**Enjoy! :3**

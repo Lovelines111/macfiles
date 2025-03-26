@@ -54,8 +54,8 @@ translate=true
 [org/gnome/desktop/background]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/nixoline/macfiles/useful/cherry-wp.jpg'
-picture-uri-dark='file:///home/nixoline/macfiles/useful/cherry-wp.jpg'
+picture-uri='file:///home/maxoline/macfiles/useful/cherry-wp.jpg'
+picture-uri-dark='file:///home/maxoline/macfiles/useful/cherry-wp.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -113,7 +113,7 @@ two-finger-scrolling-enabled=true
 [org/gnome/desktop/screensaver]
 color-shading-type='solid'
 picture-options='zoom'
-picture-uri='file:///home/nixoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
+picture-uri='file:///home/maxoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
 primary-color='#000000000000'
 secondary-color='#000000000000'
 
@@ -168,10 +168,10 @@ initial-size=(890, 550)
 initial-size-file-chooser=(890, 550)
 
 [org/gnome/portal/filechooser/org.gnome.Settings]
-last-folder-path='/home/nixoline/Downloads/Adobe ICC Profiles (bundler)/RGB'
+last-folder-path='/home/maxoline/Downloads/Adobe ICC Profiles (bundler)/RGB'
 
 [org/gnome/portal/filechooser/vesktop]
-last-folder-path='/home/nixoline/Videos/Screencasts'
+last-folder-path='/home/maxoline/Videos/Screencasts'
 
 [org/gnome/settings-daemon/plugins/color]
 night-light-enabled=false
@@ -310,7 +310,7 @@ bgcolor=['0.984', '0.733', '0.769']
 bgcolor-wmax=['0.118', '0.118', '0.118']
 bgcolor2=['0.886', '0.804', '0.773']
 bgpalette=false
-bguri='file:///home/nixoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
+bguri='file:///home/maxoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
 border-wmax=false
 bordertype='solid'
 bottom-margin=4.4000000000000004
@@ -358,7 +358,7 @@ dark-bcolor=['0.984', '0.878', '0.890']
 dark-bgcolor=['0.984', '0.733', '0.769']
 dark-bgcolor-wmax=['0.118', '0.118', '0.118']
 dark-bgcolor2=['0.886', '0.804', '0.773']
-dark-bguri='file:///home/nixoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
+dark-bguri='file:///home/maxoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
 dark-boxcolor=['0.427', '0.353', '0.376']
 dark-candy1=['0', '0.61', '0.74']
 dark-candy10=['0.09', '0.19', '0.72']
@@ -438,7 +438,7 @@ light-bcolor=['0.984', '0.729', '0.765']
 light-bgcolor=['0.369', '0.212', '0.251']
 light-bgcolor-wmax=['0.922', '0.922', '0.922']
 light-bgcolor2=['0.886', '0.804', '0.773']
-light-bguri='file:///home/nixoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
+light-bguri='file:///home/maxoline/.local/share/backgrounds/2025-03-23-05-34-16-cherry-blossom-baby-pink-hd-4k-22-09-2024-1727053568-hd-wallpaper.jpg'
 light-boxcolor=['0.427', '0.353', '0.376']
 light-candy1=['0', '0.61', '0.74']
 light-candy10=['0.09', '0.19', '0.72']
@@ -632,10 +632,10 @@ show-toolbar=true
 graphics-type='system'
 
 [org/virt-manager/virt-manager/paths]
-media-default='/home/nixoline/win10'
+media-default='/home/maxoline/win10'
 
 [org/virt-manager/virt-manager/urls]
-isos=['/home/nixoline/win10/win10.iso']
+isos=['/home/maxoline/win10/win10.iso']
 
 [org/virt-manager/virt-manager/vmlist-fields]
 disk-usage=false

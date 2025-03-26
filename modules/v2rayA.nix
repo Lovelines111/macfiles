@@ -5,7 +5,7 @@ security.sudo = {
   enable = true;
   # Allow the user to run v2rayA without a password
   extraConfig = ''
-    nixoline ALL=(ALL) NOPASSWD: /run/current-system/sw/bin/v2rayA
+    maxoline ALL=(ALL) NOPASSWD: /run/current-system/sw/bin/v2rayA
   '';
 };
 

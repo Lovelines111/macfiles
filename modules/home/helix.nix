@@ -10,6 +10,7 @@
           normal = "block";
           insert = "bar";
           select = "underline";
+          
         };
         statusline = {
           left = ["mode" "spacer" "file-name" "spacer" "version-control"];
@@ -70,6 +71,9 @@
         "ui.popup" = { bg = "#3a2a2f"; };
         "ui.window" = { bg = "#2a1a1f"; };
       };
+    keys.normal = {
+      "Cmd-c" = [ "yank_to_clipboard" ":d" ];
+    };
     };
   };
 }
