@@ -43,7 +43,7 @@ This guide will assume you have a clean install.
 5. Make the script executable:
 
     ```bash
-    chmod +x replace-user.sh
+    chmod +x replace-username.sh
     ```
 
 Now we'll replace my username with your own. This is very important because if done incorrectly, it will prevent you from logging in.
@@ -51,7 +51,7 @@ Now we'll replace my username with your own. This is very important because if d
 6. Run the replacement script:
 
     ```bash
-    ./replace-user.sh . nixoline "$(whoami)"
+    ./replace-username.sh . maxoline "$(whoami)"
     ```
 
 It should output something like this:
